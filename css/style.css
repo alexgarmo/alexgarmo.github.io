@@ -15,9 +15,9 @@ body {
 }
 
 .header {
-  background: url(pictures/banner.jpg) no-repeat center center; 
+  background: url("banner.jpg") no-repeat center center; 
   background-size: cover;
-  height: 300px;
+  height: 800px;
   text-align: center; 
 }
 
@@ -97,9 +97,9 @@ body {
 }
 
 .jumbotron {
-  background: url(pictures/world.png) center center;
+  background: url("world.png") center center;
   background-size: cover;
-  height: 300px; 
+  height: 600px; 
 }
 
 .jumbotron .container {
