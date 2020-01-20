@@ -105,6 +105,6 @@ button.primary.ghost {
 
 @media (max-width: 1300px) {
   .card-container {
-    width: 700px;
+    width: 80% !important;
   }
 }
