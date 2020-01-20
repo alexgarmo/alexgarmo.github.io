@@ -3,6 +3,7 @@
 body {
   background-image: linear-gradient(to right top, #382c00, #5c4800, #806400, #a38000, #c79c00);
   font-family: Montserrat, sans-serif;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -29,9 +30,8 @@ p {
   padding: 30px 0 0;
   position: relative;
   width: 350px;
-  max-width: 60%;
+  max-width: 80%;
   text-align: center;
-  margin-top: 5%;
   overflow: hidden;
 }
 
