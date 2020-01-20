@@ -1,20 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-image: linear-gradient(to right top, #382c00, #5c4800, #806400, #a38000, #c79c00);
   font-family: Montserrat, sans-serif;
-  
-  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 
-  min-height: 100vh;
+  min-height: 100%;
   margin: 0;
 }
 
@@ -42,7 +34,7 @@ p {
   width: 350px;
   max-width: 100%;
   text-align: center;
-  margin: 20px 0;
+  margin: 5% auto;
   overflow: hidden;
 }
 
@@ -101,10 +93,4 @@ button.primary.ghost {
   font-size: 12px;
   margin: 0 7px 7px 0;
   padding: 7px;
-}
-
-@media (max-width: 1300px) {
-  .card-container {
-    width: 80% !important;
-  }
 }
