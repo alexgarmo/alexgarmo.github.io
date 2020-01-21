@@ -60,6 +60,7 @@ button.primary {
   border-radius: 3px;
   color: #fff;
   font-family: Montserrat, sans-serif;
+  font-size: 14px;
   font-weight: 500;
   padding: 10px 25px;
 }
@@ -150,6 +151,7 @@ button.primary.ghost {
     border-radius: 6px;
     color: #fff;
     font-family: Montserrat, sans-serif;
+    font-size: 28px;
     font-weight: 1000;
     padding: 20px 50px;
   }
