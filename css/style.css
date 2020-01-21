@@ -3,7 +3,6 @@
 body {
   background-color: #a38000;
   font-family: Montserrat, sans-serif;
-  height: 100%;
   text-align: center;
 }
 
@@ -17,8 +16,8 @@ h6 {
 }
 
 p {
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
 }
 
 .card-container {
@@ -90,19 +89,3 @@ button.primary.ghost {
   padding: 7px;
 }
 
-@media (max-width: 1754px) { 
-  .card-container {
-    width: 60%;
-  }
-}
-
-@media (max-width: 1326px) { 
-  .card-container {
-    width: 70%;
-  }
-}
-
-@media (max-width: 776px) { 
-  .card-container {
-    width: 100%;
-  }
