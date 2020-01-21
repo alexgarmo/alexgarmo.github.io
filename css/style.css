@@ -90,7 +90,7 @@ button.primary.ghost {
   padding: 7px;
 }
 
-@media (max-width: 1079px) { 
+@media (max-width: 1400px) { 
   .card-container {
     width: 80%;
   }
