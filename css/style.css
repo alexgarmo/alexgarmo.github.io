@@ -18,7 +18,7 @@ h6 {
 p {
   font-size: 16px;
   line-height: 21px;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .card-container {
@@ -28,9 +28,10 @@ p {
   color: #dbc87d;
   padding: 30px 0 0;
   position: relative;
-  width: 20%;
+  width: 350px;
   overflow: hidden;
-  margin: 10% auto;
+  margin: 100px auto;
+  vertical-align: middle;
 }
 
 .card-container .pro {
@@ -88,4 +89,85 @@ button.primary.ghost {
   font-size: 12px;
   margin: 0 7px 7px 0;
   padding: 7px;
+}
+
+/* Mobile screen test */
+
+@media (max-width: 1250px) { 
+  h3 {
+    margin: 20px 0;
+    font-size: 37.44px;
+  }
+
+  h6 {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 21.44px;
+  }
+
+  p {
+    font-size: 32px;
+    line-height: 42px;
+    padding: 0 20px;
+  }
+
+  .card-container {
+    background-color: #423b20;
+    border-radius: 50px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.35);
+    color: #dbc87d;
+    padding: 60px 0 0;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+    margin: 100px auto;
+    vertical-align: middle;
+  }
+
+  .card-container .pro {
+    color: #423b20;
+    background-color: #FEBB0B;
+    border-radius: 6px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 6px 14px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+  }
+
+  .card-container img {
+    border: 2px solid #FEBB0B;
+    border-radius: 50%;
+    padding: 14px;
+    height: 300px;
+    width: 300px;
+  }
+
+  button.primary {
+    background-color: #FEBB0B;
+    border: 2px solid #FEBB0B;
+    border-radius: 6px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 1000;
+    padding: 20px 50px;
+  }
+
+  .skills {
+    background-color: #332e19;
+    text-align: left;
+    padding: 30px;
+    margin-top: 60px;
+  }
+
+  .skills ul li {
+    border: 2px solid #dbc87d;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 14px 14px 0;
+    padding: 14px;
+  }
+
 }
