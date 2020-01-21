@@ -96,10 +96,10 @@ button.primary.ghost {
   }
 
   .card-container img {
-  border: 2em solid #FEBB0B;
+  border: 1px solid #FEBB0B;
   border-radius: 50%;
   padding: 7px;
-  height: 3em;
-  width: 3em;
-}
+  height: 10px;
+  width: 10px;
+  }
 }
