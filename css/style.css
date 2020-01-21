@@ -94,4 +94,12 @@ button.primary.ghost {
   .card-container {
     width: 80%;
   }
+
+  .card-container img {
+  border: 2em solid #FEBB0B;
+  border-radius: 50%;
+  padding: 7px;
+  height: 3em;
+  width: 3em;
+}
 }
