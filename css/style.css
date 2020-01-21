@@ -30,7 +30,7 @@ p {
   position: relative;
   width: 20%;
   overflow: hidden;
-  margin: auto;
+  margin: 10% auto;
 }
 
 .card-container .pro {
